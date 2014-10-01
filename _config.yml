@@ -1,0 +1,19 @@
+title: 'Neat Little Tricks'
+tagline: 'by Anup Bishnoi'
+description: 'Real neat little tricks (in coding and otherwise) gathered over time by <a href="https://twitter.com/asyncanup" target="_blank">@asyncanup</a>. Expect some JS and Swift.'
+
+url: http://bish.nu
+baseurl: ''
+permalink: /:title/
+paginate: 10
+
+author:
+  name: 'Anup Bishnoi'
+  url: https://twitter.com/asyncanup
+  email: pixelsallover@gmail.com
+
+github:
+  repo: https://github.com/asyncanup/asyncanup.github.io
+
+highlighter: pygments
+markdown: redcarpet
