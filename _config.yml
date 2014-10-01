@@ -4,7 +4,7 @@ description: 'Real neat little tricks (in coding and otherwise) gathered over ti
 
 url: http://bish.nu
 baseurl: ''
-permalink: /:title/
+permalink: pretty
 paginate: 10
 
 author:
