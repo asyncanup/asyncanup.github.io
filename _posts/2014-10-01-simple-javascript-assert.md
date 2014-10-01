@@ -17,10 +17,10 @@ For a recent barebones app, I wrote assertions as part of code like this:
 
 ```js
 function startApplication(url, callback) {
-  assert('string' === typeof url, 'URL needs to be a string!');
+    assert('string' === typeof url, 'URL needs to be a string!');
   
-  if (callback) assert('function' === typeof callback);
-  // Application code
+    if (callback) assert('function' === typeof callback);
+    // Application code
 }
 ```
 
