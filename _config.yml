@@ -7,6 +7,9 @@ baseurl: ''
 permalink: /:categories/:year/:title/
 paginate: 20
 
+imgurl: '/public/img'
+cssurl: '/public/css'
+
 author:
   name: 'Anup Bishnoi'
   url: https://twitter.com/asyncanup

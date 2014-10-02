@@ -3,11 +3,10 @@ title: Simple JavaScript assert
 layout: post
 ---
 
-## Why you need assertions
-
 It's better to fail with your own error than `undefined is not a function`.
 
-A simple assertion solution would let your application fail early and fail at the right point in runtime execution.
+A simple assertion solution would let your application fail early and fail at the
+right point in runtime execution.
 Allowing you to handle it better.
 
 
@@ -24,7 +23,9 @@ function startApplication(url, callback) {
 }
 ```
 
-If I had needed a slightly more meaty assertion library, I would have used [shouldbe](https://github.com/asyncanup/shouldbe) with Underscore. But this was just fine for the little app.
+If I had needed a slightly more meaty assertion library, I would have used
+[shouldbe](https://github.com/asyncanup/shouldbe) with Underscore. But this was
+just fine for the little app.
 
 
 ## Show me the code!
