@@ -33,13 +33,23 @@
         padding-bottom: 0.2rem;
       }
     </style>
-    <div class="sidebar-nav-item sidebar-nav-item-separator">Reach out</div>
+    <div class="sidebar-nav-item sidebar-nav-item-separator">Find me</div>
     <a class="sidebar-nav-item" target="_blank" href="{{ site.github.owner_url }}">On Github</a>
-    <a class="sidebar-nav-item" target="_blank" href="{{ site.author.url }}">On Twitter</a>
+    <a class="sidebar-nav-item" target="_blank" href="{{ site.author.twitter }}">On Twitter</a>
+    <a class="sidebar-nav-item" target="_blank" href="{{ site.author.vimeo }}">On Vimeo</a>
     
     <div class="sidebar-nav-item sidebar-nav-item-separator">Projects</div>
-    {% for repo in site.github.public_repositories %}
-      <a class="sidebar-nav-item" target="_blank" href="{{ repo.url }}">{{ repo.name }}</a>
+    {% for github_repo in site.github.public_repositories %}
+      {% for repo in site.github_repos %}
+        {% if repo.name == github_repo.name %}
+          <a class="sidebar-nav-item" target="_blank" href="{{ repo.url }}">{{ repo.name }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <div class="sidebar-nav-item sidebar-nav-item-separator">Tech Talks</div>
+    {% for talk in site.techtalks %}
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.baseurl }}/{{ talk.name }}">{{ talk.title }}</a>
     {% endfor %}
 
     <div class="sidebar-nav-item sidebar-nav-item-separator">Posts</div>

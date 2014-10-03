@@ -12,9 +12,24 @@ cssurl: '/public/css'
 
 author:
   name: 'Anup Bishnoi'
-  url: https://twitter.com/asyncanup
   email: pixelsallover@gmail.com
+  twitter: https://twitter.com/asyncanup
+  vimeo: http://vimeo.com/anupbishnoi
 
+github_repos:
+  - name: apper
+  - name: crood
+  - name: shouldbe
+
+techtalks:
+  - title: JavaScript
+    name: javascript-talk
+  
+  - title: HTML5
+    name: html5-talk
+  
+  - title: CSS
+    name: css-talk
 
 highlighter: pygments
 markdown: redcarpet
