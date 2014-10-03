@@ -26,12 +26,12 @@ So a sample callback might look like:
 
 ```js
 function setupMiddleware() {
-    console.log('setting up');
-    var notSuccessful;
-    
-    // Synchronous code
-    
-    if (notSuccessful) return false;
+  console.log('setting up');
+  var notSuccessful;
+  
+  // Synchronous code
+  
+  if (notSuccessful) return false;
 }
 ```
 
@@ -42,9 +42,9 @@ Got ya.
 
 ```js
 [ setupMiddleware, setupRoutes, startApp ]
-    .every(function (callback) {
-        return callback() !== false;
-    });
+  .every(function (callback) {
+      return callback() !== false;
+  });
 ```
 
 That's it!
@@ -55,9 +55,9 @@ You can get more fancy by calling all the callbacks with the *current* scope's c
 // the context (*this*) from here gets passed
 // to every callback as its context
 [ setupMiddleware, setupRoutes, startApp ]
-    .every(function (callback) {
-        return callback.call(this) !== false;
-    }, this);
+  .every(function (callback) {
+    return callback.call(this) !== false;
+  }, this);
 ```
 
 
