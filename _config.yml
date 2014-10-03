@@ -15,8 +15,6 @@ author:
   url: https://twitter.com/asyncanup
   email: pixelsallover@gmail.com
 
-github:
-  repo: https://github.com/asyncanup/asyncanup.github.io
 
 highlighter: pygments
 markdown: redcarpet

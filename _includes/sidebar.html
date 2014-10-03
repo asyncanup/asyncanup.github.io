@@ -17,8 +17,7 @@
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
+    {% for node in site.pages %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
@@ -26,8 +25,28 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}/archive/master.zip">Download</a>
-    <a class="sidebar-nav-item" target="_blank" href="{{ site.github.repo }}">GitHub project</a>
+    <style>
+      .sidebar-nav-item-separator { 
+        margin-top: 1.2rem;
+        padding-top: 0.2rem;
+        border-top: 0;
+        padding-bottom: 0.2rem;
+      }
+    </style>
+    <div class="sidebar-nav-item sidebar-nav-item-separator">Reach out</div>
+    <a class="sidebar-nav-item" target="_blank" href="{{ site.github.owner_url }}">On Github</a>
+    <a class="sidebar-nav-item" target="_blank" href="{{ site.author.url }}">On Twitter</a>
+    
+    <div class="sidebar-nav-item sidebar-nav-item-separator">Projects</div>
+    {% for repo in site.github.public_repositories %}
+      <a class="sidebar-nav-item" target="_blank" href="{{ repo.url }}">{{ repo.name }}</a>
+    {% endfor %}
+
+    <div class="sidebar-nav-item sidebar-nav-item-separator">Posts</div>
+    {% for post in site.posts %}
+      <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+    
   </nav>
 
   <div class="sidebar-item">
