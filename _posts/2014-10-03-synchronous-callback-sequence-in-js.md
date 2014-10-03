@@ -52,8 +52,8 @@ That's it!
 You can get more fancy by calling all the callbacks with the *current* scope's context (*this*).
 
 ```js
-// the context (*this*) from here gets passed
-// to every callback as its context
+// the context (*this*) from here gets
+// passed to every callback as its context
 [ setupMiddleware, setupRoutes, startApp ]
   .every(function (callback) {
     return callback.call(this) !== false;
