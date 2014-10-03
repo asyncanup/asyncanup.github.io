@@ -51,11 +51,6 @@
     {% for talk in site.techtalks %}
       <a class="sidebar-nav-item" target="_blank" href="{{ site.baseurl }}/{{ talk.name }}">{{ talk.title }}</a>
     {% endfor %}
-
-    <div class="sidebar-nav-item sidebar-nav-item-separator">Posts</div>
-    {% for post in site.posts %}
-      <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
     
   </nav>
 
