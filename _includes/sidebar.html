@@ -42,7 +42,7 @@
     {% for github_repo in site.github.public_repositories %}
       {% for repo in site.github_repos %}
         {% if repo.name == github_repo.name %}
-          <a class="sidebar-nav-item" target="_blank" href="{{ github_repo.url }}">{{ github_repo.name }}</a>
+          <a class="sidebar-nav-item" target="_blank" href="{{ github_repo.html_url }}">{{ github_repo.name }}</a>
         {% endif %}
       {% endfor %}
     {% endfor %}
