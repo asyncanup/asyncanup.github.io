@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
+
+<script src="//code.jquery.com/jquery.js"></script>
+<script src="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+
+<style>
+  .ui-content {
+    min-height: 300px;
+  }
+</style>
+
+<div data-role="page" id="main"></div>
+<script type="text/template" id="main-template">
+  <div data-role="header">
+    <h1>Main Page</h1>
+  </div>
+  <div class="ui-content">
+    Go to
+    <a href="#about" data-transition="slide">
+      About page</a>
+  </div>
+  <div data-role="footer">
+    <%= new Date() %>
+  </div>
+</script>
+
+<div data-role="page" id="about"></div>
+<script type="text/template" id="about-template">
+  <div data-role="header">
+    <h1>About Page</h1>
+  </div>
+  <div class="ui-content">
+    Go <a href="#" data-rel="back">back</a>
+  </div>
+  <div data-role="footer">
+    <%= new Date() %>
+  </div>
+</script>
+
+<script>
+  $(document).on('pagebeforeshow', '[data-role=page]',
+    function () {
+      var page = $(this),
+        id = page.attr('id');
+      try {
+        var template =
+          _.template($('#' + id + '-template').html());
+      } catch (e) {
+        console.log('Template error for: ' + id);
+        throw e;
+      }
+      page.html(template()).trigger('create');
+    });
+</script>
