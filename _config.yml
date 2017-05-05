@@ -2,7 +2,7 @@ title: 'Neat Little Tricks'
 tagline: 'by Anup Bishnoi'
 description: 'Neat little tricks (in coding and otherwise) gathered over time by <a href="https://twitter.com/asyncanup" target="_blank">@asyncanup</a>.'
 
-url: https://anupbishnoi.com
+url: http://anupbishnoi.com
 baseurl: ''
 permalink: /:categories/:year/:title/
 paginate: 20
