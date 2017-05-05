@@ -31,5 +31,4 @@ techtalks:
   - title: CSS
     name: css-talk
 
-highlighter: pygments
-markdown: redcarpet
+highlighter: rouge
