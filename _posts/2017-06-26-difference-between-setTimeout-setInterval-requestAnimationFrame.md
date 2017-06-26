@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Difference between setTimeout, setInterval, requestAnimationFrame in JavaScript (browsers)
+title: Difference between setTimeout, setInterval, requestAnimationFrame
 ---
 
 `setTimeout`, `setInterval` and `requestAnimationFrame` seem to be commonly
