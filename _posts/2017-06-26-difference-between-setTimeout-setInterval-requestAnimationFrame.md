@@ -3,6 +3,12 @@ layout: post
 title: Difference between setTimeout, setInterval, requestAnimationFrame in JavaScript (browsers)
 ---
 
+`setTimeout`, `setInterval` and `requestAnimationFrame` seem to be commonly
+misunderstood, and yet they are really simple to just tinker with thanks to
+browser consoles.
+
+Run the code here in your browsers and compare results with mine!
+
 ## Concepts
 
 `setTimeout` attaches a handler to the base event loop, always attaching to the
