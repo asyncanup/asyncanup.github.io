@@ -123,11 +123,12 @@ Result:
 `while(true)` seems to be a measure of the raw maximum compute performance that
 my system provides. Interestingly, using `new Date().getTime()` instead of
 `Date.now()` above drops the iteration count down to `34160634`!
+
 Which probaby suggests  that `Date.now()` simply executes faster than `new
 Date().getTime()`, since that is the only computation inside that `while(true)`
 infinite loop :)
 
-## System spec
+## System specs
 
 All results above are for Google Chrome Version 58.0.3029.110 (64-bit) on
 macOS Sierra Version 10.12.3, MacBook Pro (Retina, 15-inch, Mid 2015)
