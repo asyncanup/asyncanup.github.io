@@ -1,5 +1,5 @@
 ---
-title: Slackbot in a tweet \#1 - AskToughQuestions
+title: Slackbot in a tweet (1) - AskToughQuestions
 layout: post
 ---
 
@@ -40,7 +40,8 @@ You might even say, if you can write tweets, you can write slackbots (yikes).
 # How do I use it?
 
 Create a [new slash command](https://netflix.slack.com/apps/A0F82E8CA-slash-commands) in Slack,
-with the Request URL: https://runkit.io/asyncanup/slackbot-is-the-president/3.0.0 (or your own).
+with the Request URL: [https://runkit.io/asyncanup/slackbot-is-the-president/3.0.0](https://runkit.io/asyncanup/slackbot-is-the-president/3.0.0)
+(or your own).
 
 # How do I modify it?
 
