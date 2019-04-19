@@ -1,5 +1,5 @@
 ---
-title: Slackbot in a tweet (1) - AskToughQuestions
+title: Slackbot in a tweet - AskToughQuestions
 layout: post
 ---
 
