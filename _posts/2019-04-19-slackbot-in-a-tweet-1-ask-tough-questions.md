@@ -49,6 +49,8 @@ Easiest way might be to hop over to the [Runkit Notebook](https://runkit.com/asy
 and publish it from the Runkit interface. Then the `endpoint` link atop the Notebook will give you your custom URL,
 and changing code in the Notebook will modify the service.
 
+Don't forget to update your Slash command's Request URL to your own `endpoint` link.
+
 > Note:
 > you don't have to be limited to a tweet's length to write your own modifications! That was just to get your attention :)
 
