@@ -39,10 +39,8 @@ You might even say, if you can write tweets, you can write slackbots (yikes).
 
 # How do I use it?
 
-[Create a Slack app](https://api.slack.com/apps) in your own workspace.
-
-Add Slash commands per taste (`/is_it_true_that` is pretty generic) with Request URL: https://runkit.io/asyncanup/slackbot-is-the-president/3.0.0
-(or your own URL)
+Create a [new slash command](https://netflix.slack.com/apps/A0F82E8CA-slash-commands) in Slack,
+with the Request URL: https://runkit.io/asyncanup/slackbot-is-the-president/3.0.0 (or your own).
 
 # How do I modify it?
 
@@ -50,6 +48,7 @@ Easiest way might be to hop over to the [Runkit Notebook](https://runkit.com/asy
 and publish it from the Runkit interface. Then the `endpoint` link atop the Notebook will give you your custom URL,
 and changing code in the Notebook will modify the service.
 
-> Note: you don't have to be limited to a tweet's length to write your own modifications! That was just to get your attention :)
+> Note:
+> you don't have to be limited to a tweet's length to write your own modifications! That was just to get your attention :)
 
 [Conversation on Twitter](https://twitter.com/asyncanup/status/1119326786167304192)
