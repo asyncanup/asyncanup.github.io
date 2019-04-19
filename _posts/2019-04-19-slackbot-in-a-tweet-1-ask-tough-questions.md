@@ -51,3 +51,5 @@ and publish it from the Runkit interface. Then the `endpoint` link atop the Note
 and changing code in the Notebook will modify the service.
 
 > Note: you don't have to be limited to a tweet's length to write your own modifications! That was just to get your attention :)
+
+[Conversation on Twitter](https://twitter.com/asyncanup/status/1119326786167304192)
