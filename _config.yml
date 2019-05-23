@@ -9,6 +9,7 @@ paginate: 20
 
 imgurl: '/public/img'
 cssurl: '/public/css'
+jsurl: '/public/js'
 
 author:
   name: 'Anup Bishnoi'
