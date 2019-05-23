@@ -1,9 +1,8 @@
-v=document.createElement('canvas')
-v.width=400
-v.height=400
-v.style.backgroundColor='#f4f5f2'
-v.style.margin='10px auto'
-v.onclick=()=>{c.clearRect(0,0,v.width,v.height);F()}
+document.querySelector('#canvas-container').innerHTML='<canvas id="v" width=400 height=400></canvas>'
+
+// v.style.backgroundColor='#f4f5f2'
+// v.style.margin='10px auto'
+// v.onclick=()=>{c.clearRect(0,0,v.width,v.height);F()}
 
 F=()=>{
 c=v.getContext('2d')
