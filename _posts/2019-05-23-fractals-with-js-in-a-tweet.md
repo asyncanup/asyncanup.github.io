@@ -42,7 +42,7 @@ You can try it out online at
 Or, right here!
 
 <script src="{{ site.baseurl }}{{ site.jsurl }}/fractal-tweet.js"></script>
-<div id="canvas-container"></div>
+<div id="canvas-container" style="margin:10px auto"></div>
 
 Click anywhere in the canvas above to generate a new one!
 
