@@ -5,7 +5,10 @@ layout: post
 
 Let's implement Fractals with JavaScript, and make it fit in a tweet! 280 characters worth of code creates these amazing patterns:
 
-![Fractals in a tweet worth of JavaScript]({{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.gif)
+<video controls width="500">
+  <source src="//{{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.mp4" type="video/mp4">
+  Watch a video <a href="//{{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.mp4">here</a>
+</video>
 
 ## Code
 
@@ -33,15 +36,13 @@ And it needs the following HTML to work:
 
 ## Demo
 
-You can try it out online at:
-https://runkit.com/asyncanup/5cd629840a18bf001b4860e9
+You can try it out online at
+[my Runkit page](https://runkit.com/asyncanup/5cd629840a18bf001b4860e9)
 
 Or, right here!
 
-<canvas id="v" width=400 height=400 style="background-color:#fdf6e3;margin:10px auto" onclick="c.clearRect(0,0,v.width,v.height);F()"></canvas>
-
-<script src="{{ site.baseurl }}{{ site.jsurl }}/fractal-tweet.js">
-</script>
+<script src="//{{ site.baseurl }}{{ site.jsurl }}/fractal-tweet.js"></script>
+<div id="canvas-container"></div>
 
 Click anywhere in the canvas above to generate a new one!
 
