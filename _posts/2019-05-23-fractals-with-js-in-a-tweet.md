@@ -5,9 +5,9 @@ layout: post
 
 Let's implement Fractals with JavaScript, and make it fit in a tweet! 280 characters worth of code creates these amazing patterns:
 
-<video controls width="500">
-  <source src="//{{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.mp4" type="video/mp4">
-  Watch a video <a href="//{{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.mp4">here</a>
+<video autoplay width="500">
+  <source src="{{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.mp4" type="video/mp4">
+  Watch a video <a href="{{ site.baseurl }}{{ site.imgurl }}/fractal-tweet.mp4">here</a>
 </video>
 
 ## Code
@@ -41,7 +41,7 @@ You can try it out online at
 
 Or, right here!
 
-<script src="//{{ site.baseurl }}{{ site.jsurl }}/fractal-tweet.js"></script>
+<script src="{{ site.baseurl }}{{ site.jsurl }}/fractal-tweet.js"></script>
 <div id="canvas-container"></div>
 
 Click anywhere in the canvas above to generate a new one!
