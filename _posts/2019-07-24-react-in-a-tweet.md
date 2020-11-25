@@ -85,7 +85,7 @@ You can fiddle with the following over at
 
 Video of working example:
 
-<video autoplay="true" loop="true" width="500">
+<video autoplay loop controls width="500">
   <source src="{{ site.baseurl }}{{ site.imgurl }}/react-tic-tac-toe-demo.mp4" type="video/mp4">
   Watch a video <a href="{{ site.baseurl }}{{ site.imgurl }}/react-tic-tac-toe-demo.mp4">here</a>
 </video>
