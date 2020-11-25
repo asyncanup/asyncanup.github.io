@@ -468,3 +468,5 @@ A = 'appendChild',
 And that's it!
 
 <div class="tenor-gif-embed" data-postid="4323138" data-share-method="host" data-width="100%" data-aspect-ratio="1.7785714285714287"><a href="https://tenor.com/view/americas-got-talent-agt-happy-smile-excited-gif-4323138">Excited GIF</a> from <a href="https://tenor.com/search/americasgottalent-gifs">Americasgottalent GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+> Understanding the React DOM + Component.setState tweet is left as an exercise to the reader.
