@@ -355,3 +355,5 @@ To summarize:
 Download [Tambour](https://apps.apple.com/us/app/tambour/id1493473305) from iOS
 App Store for your iPhone or iPad.
 
+![Tambour on iOS]({{ site.baseurl }}{{ site.publicurl }}/tambour/logo.png)
+
