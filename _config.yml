@@ -7,6 +7,7 @@ baseurl: ''
 permalink: /:categories/:year/:title/
 paginate: 20
 
+publicurl: '/public'
 imgurl: '/public/img'
 cssurl: '/public/css'
 jsurl: '/public/js'
