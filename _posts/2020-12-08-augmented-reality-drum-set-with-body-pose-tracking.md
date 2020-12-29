@@ -342,8 +342,9 @@ the app.
 
 To summarize:
 - Navigate the app using body gestures (like punching up with the right hand).
-- Play drums with body gestures, punching and banging all around (except for, you know, punching up with the right hand).
-- Listen to, instead of watch, the state of the UI as you navigate through it.
+- Play drums with body gestures, punching and banging all around (except for,
+  you know, punching up with the right hand). Listen to, instead of watch, the
+- state of the UI as you navigate through it.
 
 > Even though it's not required for the user, there still exist visual
 > indications about the state of the app in the UI, just so a recording or a
