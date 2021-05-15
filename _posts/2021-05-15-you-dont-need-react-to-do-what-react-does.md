@@ -3,7 +3,7 @@ title: You don't need React to do what React does
 layout: post
 ---
 
-It’s 2021, but frontend state management is still hard. But you know what, you
+It’s 2021, and frontend state management is still hard. But you know what, you
 don’t need to use React or build your entire app with React to get the benefits
 of top-down uni-directional state-driven UI updates.
 
