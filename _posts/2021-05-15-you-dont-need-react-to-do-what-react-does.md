@@ -28,8 +28,9 @@ Of course you need the conceptual primitives, a normalized Model data
 structure, a “dumb” View hierarchy, a ViewModel data structure, and an
 idempotent Renderer to update UI.
 
-And you can do that literally in any language in the world. I’ve done it in
-C++, C#, Swift, even jQuery Mobile, before React or SwiftUI ever showed up. 
+And you can do that literally in any language or stack in the world. I’ve done
+it in C++, C#, Swift, even jQuery Mobile, before React or SwiftUI ever showed
+up. 
 
 ## And what do you get from such a setup?
 
