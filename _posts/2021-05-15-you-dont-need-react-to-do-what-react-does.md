@@ -10,11 +10,13 @@ of top-down uni-directional state-driven UI updates.
 Look at YouTube Music here, showing mismatching song name and graphic and
 playing one of them like who cares.
 
-<img
-  src="{{ site.baseurl }}{{ site.imgurl }}/youtube-music-inconsistent-state.png"
-  alt="YouTube Music inconsistent song name and cover"
-  width="300"
-/>
+<center>
+  <img
+    src="{{ site.baseurl }}{{ site.imgurl }}/youtube-music-inconsistent-state.png"
+    alt="YouTube Music inconsistent song name and cover"
+    width="300"
+  />
+</center>
 
 ## React-like without React
 
