@@ -48,6 +48,6 @@ the app for EVERY SMALL CHANGE.
 
 You get to build your app and all its visual behavior in one language (C++, or
 C# if you’re building on Unity3D), and then plug in platform-specific visual
-layer on top, while ENSURING that visual behavior across ALL platforms still
+layers on top, while ENSURING that visual behavior across ALL platforms still
 works. Write-once-run-anywhere but for testing!
 
