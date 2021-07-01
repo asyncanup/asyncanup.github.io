@@ -7,6 +7,8 @@ baseurl: ''
 permalink: /:categories/:year/:title/
 paginate: 20
 
+plugins: [jekyll-paginate]
+
 publicurl: '/public'
 imgurl: '/public/img'
 cssurl: '/public/css'
@@ -17,13 +19,17 @@ author:
   email: pixelsallover@gmail.com
   twitter: https://twitter.com/asyncanup
   vimeo: http://vimeo.com/anupbishnoi
-  runkit: https://runkit.com/asyncanup
+  linkedin: https://www.linkedin.com/in/anupbishnoi
 
-github_repos:
-  - name: apper
-  - name: vasco
+github_contributor_to:
+  - Netflix/falcor
+  - mrdoob/three.js
+  - socketio/socket.io
 
 techtalks:
+  - title: Microservice Discovery
+    name: public/vasco-talk.mp4
+
   - title: JavaScript
     name: javascript-talk
   

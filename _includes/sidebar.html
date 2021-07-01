@@ -36,16 +36,12 @@
     <div class="sidebar-nav-item sidebar-nav-item-separator">Find me</div>
     <a class="sidebar-nav-item" target="_blank" href="{{ site.github.owner_url }}">On Github</a>
     <a class="sidebar-nav-item" target="_blank" href="{{ site.author.twitter }}">On Twitter</a>
+    <a class="sidebar-nav-item" target="_blank" href="{{ site.author.linkedin }}">On LinkedIn</a>
     <a class="sidebar-nav-item" target="_blank" href="{{ site.author.vimeo }}">On Vimeo</a>
-    <a class="sidebar-nav-item" target="_blank" href="{{ site.author.runkit }}">On Runkit</a>
     
-    <div class="sidebar-nav-item sidebar-nav-item-separator">Projects</div>
-    {% for github_repo in site.github.public_repositories %}
-      {% for repo in site.github_repos %}
-        {% if repo.name == github_repo.name %}
-          <a class="sidebar-nav-item" target="_blank" href="{{ github_repo.html_url }}">{{ github_repo.name }}</a>
-        {% endif %}
-      {% endfor %}
+    <div class="sidebar-nav-item sidebar-nav-item-separator">Contributor to</div>
+    {% for repo in site.github_contributor_to %}
+      <a class="sidebar-nav-item" target="_blank" href="https://github.com/{{ repo }}">{{ repo }}</a>
     {% endfor %}
 
     <div class="sidebar-nav-item sidebar-nav-item-separator">Tech Talks</div>
