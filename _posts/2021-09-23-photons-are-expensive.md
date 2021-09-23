@@ -1,8 +1,6 @@
-# Photons are expensive
-
 "Photons are expensive" in Autonomous Driving.
-
 Why?
+
 (Thoughts my own, not employer's)
 
 Throwing the photons out from a LiDAR is easy, but that's only the start of the journey in achieving their long-winded purpose. Here are some costs as they continue on that journey:
