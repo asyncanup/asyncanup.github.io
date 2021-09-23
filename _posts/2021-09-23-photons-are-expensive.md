@@ -24,5 +24,7 @@ Throwing the photons out from a LiDAR is easy, but that's only the start of the 
 
 
 Photons are expensive. No shit.
+
 But they give us self-driving.
+
 Amen to that.
