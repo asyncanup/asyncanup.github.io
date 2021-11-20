@@ -36,4 +36,4 @@ Values, Who I Am, How To Deal With Me
 
 #### Striving
 
-Striving is when you’re trying to be something you’re currently not, especially when that something is a better version of yourself. I don’t believe in striving as something external to who you already are. The mere notion of trying to be better makes you slightly better, and puts you a little bit ahead on that path already. I don’t intend to be “better”, because I don’t know what way of being is “better”, I only intend to be me, because that is all I can really be with maximum authenticity.
+Striving is when you’re trying to be something you’re currently not, especially when that something is a better version of yourself. I don’t believe in striving as something external to who you already are. The mere notion of trying to be better makes you slightly better, and puts you a little bit ahead on that path already. I don’t intend to be “better”, because I don’t know what way of being is “better”, I only intend to be me, because that is all I can really be with maximal authenticity.
