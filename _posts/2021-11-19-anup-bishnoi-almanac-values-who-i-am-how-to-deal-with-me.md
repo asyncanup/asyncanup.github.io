@@ -1,4 +1,7 @@
-# Anup Bishnoi Almanac
+---
+title: Anup Bishnoi Almanac
+layout: post
+---
 
 Values, Who I Am, How To Deal With Me
 
